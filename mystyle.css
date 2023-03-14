@@ -1,0 +1,33 @@
+.appdiv {
+
+    height: 300px;
+    width: 400px;
+    border: 7px solid black;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.screen {
+    height: 50%;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    border: 5px solid blue;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.controls{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:repeat(4, 1fr);
+
+
+}
+
+.output_screen {
+
+    padding-top: 10%;
+    padding-left: 5%;
+}
